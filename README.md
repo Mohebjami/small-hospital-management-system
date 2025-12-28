@@ -1,16 +1,41 @@
 # hospital
 
-A new Flutter project.
 
-## Getting Started
+Hospital Management App
 
-This project is a starting point for a Flutter application.
+A Flutter app using GetX and SQLite to manage doctors, patients, appointments, prescriptions, pharmacy, and reports.
 
-A few resources to get you started if this is your first Flutter project:
+⸻
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Features
+	•	Doctors: Add, edit, delete, track specialties.
+	•	Patients: Add, edit, delete, assign to doctors.
+	•	Appointments: Schedule, update, cancel, confirm.
+	•	Doctor Panel: Add/update prescriptions.
+	•	Pharmacy: Manage medicines, quantity, and price.
+	•	Reports: Total patients & disease-wise stats.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+⸻
+
+Tech Stack
+	•	Flutter & Dart
+	•	GetX (state management)
+	•	SQLite (local database)
+
+⸻
+
+Installation
+
+git clone git@github.com:Mohebjami/small-hospital-management-system.git
+cd hospital-management-app
+flutter pub get
+flutter run
+
+
+⸻
+
+Usage
+	•	Login and navigate via the dashboard.
+	•	Manage doctors, patients, appointments, prescriptions, pharmacy.
+	•	Generate reports.
+
